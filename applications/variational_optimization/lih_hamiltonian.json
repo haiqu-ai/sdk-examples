@@ -1,0 +1,1119 @@
+{
+  "molecule": "LiH",
+  "bond_length_angstrom": 1.6,
+  "basis": "sto3g",
+  "frozen_core": true,
+  "mapping": "jordan_wigner",
+  "num_qubits": 10,
+  "num_spatial_orbitals": 5,
+  "num_active_electrons": [1, 1],
+  "nuclear_repulsion_energy": 0.992207,
+  "frozen_core_energy": -7.7966226981,
+  "fci_energy": -7.8825,
+  "pauli_terms": [
+    {
+      "label": "IIIIIIIIII",
+      "coeff": 1.0697890371
+    },
+    {
+      "label": "IIIIIIIIIZ",
+      "coeff": -0.2984766647
+    },
+    {
+      "label": "IIIIIIIIZI",
+      "coeff": -0.3904985983
+    },
+    {
+      "label": "IIIIIIIIZZ",
+      "coeff": 0.0526365153
+    },
+    {
+      "label": "IIIIIYZZYI",
+      "coeff": 0.0241085559
+    },
+    {
+      "label": "IIIIIYZZYZ",
+      "coeff": 0.0041915663
+    },
+    {
+      "label": "IIIIIXZZXI",
+      "coeff": 0.0241085559
+    },
+    {
+      "label": "IIIIIXZZXZ",
+      "coeff": 0.0041915663
+    },
+    {
+      "label": "IIIIIIIZII",
+      "coeff": -0.4261734475
+    },
+    {
+      "label": "IIIIIIIZIZ",
+      "coeff": 0.0616872047
+    },
+    {
+      "label": "IIIIIIZIII",
+      "coeff": -0.4261734475
+    },
+    {
+      "label": "IIIIIIZIIZ",
+      "coeff": 0.0616872047
+    },
+    {
+      "label": "IIIIIZIIII",
+      "coeff": -0.563733474
+    },
+    {
+      "label": "IIIIIZIIIZ",
+      "coeff": 0.0824794937
+    },
+    {
+      "label": "IIIIZIIIII",
+      "coeff": -0.2984766647
+    },
+    {
+      "label": "IIIIZIIIIZ",
+      "coeff": 0.1218277417
+    },
+    {
+      "label": "IIIYYIIIII",
+      "coeff": -0.0035558166
+    },
+    {
+      "label": "IIIYYIIIIZ",
+      "coeff": 0.0121448981
+    },
+    {
+      "label": "IIIXXIIIII",
+      "coeff": -0.0035558166
+    },
+    {
+      "label": "IIIXXIIIIZ",
+      "coeff": 0.0121448981
+    },
+    {
+      "label": "YZZZYIIIII",
+      "coeff": -0.0132125502
+    },
+    {
+      "label": "YZZZYIIIIZ",
+      "coeff": -0.0316987456
+    },
+    {
+      "label": "XZZZXIIIII",
+      "coeff": -0.0132125502
+    },
+    {
+      "label": "XZZZXIIIIZ",
+      "coeff": -0.0316987456
+    },
+    {
+      "label": "IIIZIIIIII",
+      "coeff": -0.3904985983
+    },
+    {
+      "label": "IIIZIIIIIZ",
+      "coeff": 0.0559025112
+    },
+    {
+      "label": "YZZYIIIIII",
+      "coeff": 0.0241085559
+    },
+    {
+      "label": "YZZYIIIIIZ",
+      "coeff": 0.0128417237
+    },
+    {
+      "label": "XZZXIIIIII",
+      "coeff": 0.0241085559
+    },
+    {
+      "label": "XZZXIIIIIZ",
+      "coeff": 0.0128417237
+    },
+    {
+      "label": "IIZIIIIIII",
+      "coeff": -0.4261734475
+    },
+    {
+      "label": "IIZIIIIIIZ",
+      "coeff": 0.0675428731
+    },
+    {
+      "label": "IZIIIIIIII",
+      "coeff": -0.4261734475
+    },
+    {
+      "label": "IZIIIIIIIZ",
+      "coeff": 0.0675428731
+    },
+    {
+      "label": "ZIIIIIIIII",
+      "coeff": -0.563733474
+    },
+    {
+      "label": "ZIIIIIIIIZ",
+      "coeff": 0.1134611068
+    },
+    {
+      "label": "IIIIIYZZZY",
+      "coeff": -0.0132125502
+    },
+    {
+      "label": "IIIIIYZZIY",
+      "coeff": 0.0054561563
+    },
+    {
+      "label": "IIIIIXZZZX",
+      "coeff": -0.0132125502
+    },
+    {
+      "label": "IIIIIXZZIX",
+      "coeff": 0.0054561563
+    },
+    {
+      "label": "IIIIIIIIYY",
+      "coeff": -0.0035558166
+    },
+    {
+      "label": "IIIIIIIZYY",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IIIIIIIIXX",
+      "coeff": -0.0035558166
+    },
+    {
+      "label": "IIIIIIIZXX",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IIIIIIZIYY",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IIIIIIZIXX",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IIIIIZIIYY",
+      "coeff": 0.0028624554
+    },
+    {
+      "label": "IIIIIZIIXX",
+      "coeff": 0.0028624554
+    },
+    {
+      "label": "IIIIZIIIYY",
+      "coeff": 0.0121448981
+    },
+    {
+      "label": "IIIIZIIIXX",
+      "coeff": 0.0121448981
+    },
+    {
+      "label": "IIIYYIIIYY",
+      "coeff": 0.0032659959
+    },
+    {
+      "label": "IIIXXIIIYY",
+      "coeff": 0.0032659959
+    },
+    {
+      "label": "IIIYYIIIXX",
+      "coeff": 0.0032659959
+    },
+    {
+      "label": "IIIXXIIIXX",
+      "coeff": 0.0032659959
+    },
+    {
+      "label": "YZZZYIIIYY",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "XZZZXIIIYY",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "YZZZYIIIXX",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "XZZZXIIIXX",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "IIIZIIIIYY",
+      "coeff": -0.001871043
+    },
+    {
+      "label": "IIIZIIIIXX",
+      "coeff": -0.001871043
+    },
+    {
+      "label": "YZZYIIIIYY",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "XZZXIIIIYY",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "YZZYIIIIXX",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "XZZXIIIIXX",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "IIZIIIIIYY",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "IIZIIIIIXX",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "IZIIIIIIYY",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "IZIIIIIIXX",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "ZIIIIIIIYY",
+      "coeff": 0.0108383646
+    },
+    {
+      "label": "ZIIIIIIIXX",
+      "coeff": 0.0108383646
+    },
+    {
+      "label": "IIIIIYZIZY",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "IIIIIXZIZX",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "IIYZYIIYZY",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IIXZXIIYZY",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IIYZYIIXZX",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IIXZXIIXZX",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IIYYIIIYZY",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIXXIIIYZY",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIYYIIIXZX",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIXXIIIXZX",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "YZYIIIIYZY",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "XZXIIIIYZY",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "YZYIIIIXZX",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "XZXIIIIXZX",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIIIIYIZZY",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "IIIIIXIZZX",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "IYZZYIYZZY",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IXZZXIYZZY",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IYZZYIXZZX",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IXZZXIXZZX",
+      "coeff": 0.0058556684
+    },
+    {
+      "label": "IYZYIIYZZY",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IXZXIIYZZY",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IYZYIIXZZX",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IXZXIIXZZX",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "YYIIIIYZZY",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "XXIIIIYZZY",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "YYIIIIXZZX",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "XXIIIIXZZX",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIIIZYZZZY",
+      "coeff": -0.0316987456
+    },
+    {
+      "label": "IIIIZXZZZX",
+      "coeff": -0.0316987456
+    },
+    {
+      "label": "IIIYYYZZZY",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "IIIXXYZZZY",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "IIIYYXZZZX",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "IIIXXXZZZX",
+      "coeff": -0.0086501573
+    },
+    {
+      "label": "YZZZYYZZZY",
+      "coeff": 0.0309816131
+    },
+    {
+      "label": "XZZZXYZZZY",
+      "coeff": 0.0309816131
+    },
+    {
+      "label": "YZZZYXZZZX",
+      "coeff": 0.0309816131
+    },
+    {
+      "label": "XZZZXXZZZX",
+      "coeff": 0.0309816131
+    },
+    {
+      "label": "IIIZIYZZZY",
+      "coeff": 0.0031040037
+    },
+    {
+      "label": "IIIZIXZZZX",
+      "coeff": 0.0031040037
+    },
+    {
+      "label": "YZZYIYZZZY",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "XZZXIYZZZY",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "YZZYIXZZZX",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "XZZXIXZZZX",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "IIZIIYZZZY",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "IIZIIXZZZX",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "IZIIIYZZZY",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "IZIIIXZZZX",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "ZIIIIYZZZY",
+      "coeff": -0.0335513528
+    },
+    {
+      "label": "ZIIIIXZZZX",
+      "coeff": -0.0335513528
+    },
+    {
+      "label": "IIIIIIIZZI",
+      "coeff": 0.0601786623
+    },
+    {
+      "label": "IIIIIIZIZI",
+      "coeff": 0.0601786623
+    },
+    {
+      "label": "IIIIIZIIZI",
+      "coeff": 0.0537468658
+    },
+    {
+      "label": "IIIIZIIIZI",
+      "coeff": 0.0559025112
+    },
+    {
+      "label": "IIIYYIIIZI",
+      "coeff": -0.001871043
+    },
+    {
+      "label": "IIIXXIIIZI",
+      "coeff": -0.001871043
+    },
+    {
+      "label": "YZZZYIIIZI",
+      "coeff": 0.0031040037
+    },
+    {
+      "label": "XZZZXIIIZI",
+      "coeff": 0.0031040037
+    },
+    {
+      "label": "IIIZIIIIZI",
+      "coeff": 0.0844705679
+    },
+    {
+      "label": "YZZYIIIIZI",
+      "coeff": -0.008994912
+    },
+    {
+      "label": "XZZXIIIIZI",
+      "coeff": -0.008994912
+    },
+    {
+      "label": "IIZIIIIIZI",
+      "coeff": 0.0704978362
+    },
+    {
+      "label": "IZIIIIIIZI",
+      "coeff": 0.0704978362
+    },
+    {
+      "label": "ZIIIIIIIZI",
+      "coeff": 0.0603589132
+    },
+    {
+      "label": "IIIIIYZIYI",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "IIIIIXZIXI",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "IIYZYIIYYI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIXZXIIYYI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIYZYIIXXI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIXZXIIXXI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IIYYIIIYYI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IIXXIIIYYI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IIYYIIIXXI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IIXXIIIXXI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "YZYIIIIYYI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "XZXIIIIYYI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "YZYIIIIXXI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "XZXIIIIXXI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IIIIIYIZYI",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "IIIIIXIZXI",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "IYZZYIYZYI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IXZZXIYZYI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IYZZYIXZXI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IXZZXIXZXI",
+      "coeff": 0.0048192232
+    },
+    {
+      "label": "IYZYIIYZYI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IXZXIIYZYI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IYZYIIXZXI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "IXZXIIXZXI",
+      "coeff": 0.0103191739
+    },
+    {
+      "label": "YYIIIIYZYI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "XXIIIIYZYI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "YYIIIIXZXI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "XXIIIIXZXI",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IIIIZYZZYI",
+      "coeff": 0.0128417237
+    },
+    {
+      "label": "IIIIZXZZXI",
+      "coeff": 0.0128417237
+    },
+    {
+      "label": "IIIYYYZZYI",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "IIIXXYZZYI",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "IIIYYXZZXI",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "IIIXXXZZXI",
+      "coeff": 0.0023521526
+    },
+    {
+      "label": "YZZZYYZZYI",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "XZZZXYZZYI",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "YZZZYXZZXI",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "XZZZXXZZXI",
+      "coeff": -0.0079759091
+    },
+    {
+      "label": "IIIZIYZZYI",
+      "coeff": -0.008994912
+    },
+    {
+      "label": "IIIZIXZZXI",
+      "coeff": -0.008994912
+    },
+    {
+      "label": "YZZYIYZZYI",
+      "coeff": 0.0066120474
+    },
+    {
+      "label": "XZZXIYZZYI",
+      "coeff": 0.0066120474
+    },
+    {
+      "label": "YZZYIXZZXI",
+      "coeff": 0.0066120474
+    },
+    {
+      "label": "XZZXIXZZXI",
+      "coeff": 0.0066120474
+    },
+    {
+      "label": "IIZIIYZZYI",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "IIZIIXZZXI",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "IZIIIYZZYI",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "IZIIIXZZXI",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "ZIIIIYZZYI",
+      "coeff": 0.0110192322
+    },
+    {
+      "label": "ZIIIIXZZXI",
+      "coeff": 0.0110192322
+    },
+    {
+      "label": "IIIIIIZZII",
+      "coeff": 0.0655845232
+    },
+    {
+      "label": "IIIIIZIZII",
+      "coeff": 0.0621015404
+    },
+    {
+      "label": "IIIIZIIZII",
+      "coeff": 0.0675428731
+    },
+    {
+      "label": "IIIYYIIZII",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "IIIXXIIZII",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "YZZZYIIZII",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "XZZZXIIZII",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "IIIZIIIZII",
+      "coeff": 0.0704978362
+    },
+    {
+      "label": "YZZYIIIZII",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "XZZXIIIZII",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "IIZIIIIZII",
+      "coeff": 0.0782363778
+    },
+    {
+      "label": "IZIIIIIZII",
+      "coeff": 0.069801808
+    },
+    {
+      "label": "ZIIIIIIZII",
+      "coeff": 0.0670321044
+    },
+    {
+      "label": "IYYIIIYYII",
+      "coeff": 0.0042172849
+    },
+    {
+      "label": "IXXIIIYYII",
+      "coeff": 0.0042172849
+    },
+    {
+      "label": "IYYIIIXXII",
+      "coeff": 0.0042172849
+    },
+    {
+      "label": "IXXIIIXXII",
+      "coeff": 0.0042172849
+    },
+    {
+      "label": "IIYZYYZYII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIXZXYZYII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIYZYXZXII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIXZXXZXII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IIYYIYZYII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IIXXIYZYII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IIYYIXZXII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IIXXIXZXII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "YZYIIYZYII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "XZXIIYZYII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "YZYIIXZXII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "XZXIIXZXII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "IIIIIZZIII",
+      "coeff": 0.0621015404
+    },
+    {
+      "label": "IIIIZIZIII",
+      "coeff": 0.0675428731
+    },
+    {
+      "label": "IIIYYIZIII",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "IIIXXIZIII",
+      "coeff": -0.0014418756
+    },
+    {
+      "label": "YZZZYIZIII",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "XZZZXIZIII",
+      "coeff": 0.0040730586
+    },
+    {
+      "label": "IIIZIIZIII",
+      "coeff": 0.0704978362
+    },
+    {
+      "label": "YZZYIIZIII",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "XZZXIIZIII",
+      "coeff": -0.0005595264
+    },
+    {
+      "label": "IIZIIIZIII",
+      "coeff": 0.069801808
+    },
+    {
+      "label": "IZIIIIZIII",
+      "coeff": 0.0782363778
+    },
+    {
+      "label": "ZIIIIIZIII",
+      "coeff": 0.0670321044
+    },
+    {
+      "label": "IYZZYYYIII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IXZZXYYIII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IYZZYXXIII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IXZZXXXIII",
+      "coeff": -0.0048936184
+    },
+    {
+      "label": "IYZYIYYIII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IXZXIYYIII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IYZYIXXIII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "IXZXIXXIII",
+      "coeff": -0.0034307416
+    },
+    {
+      "label": "YYIIIYYIII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "XXIIIYYIII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "YYIIIXXIII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "XXIIIXXIII",
+      "coeff": 0.004930564
+    },
+    {
+      "label": "IIIIZZIIII",
+      "coeff": 0.1134611068
+    },
+    {
+      "label": "IIIYYZIIII",
+      "coeff": 0.0108383646
+    },
+    {
+      "label": "IIIXXZIIII",
+      "coeff": 0.0108383646
+    },
+    {
+      "label": "YZZZYZIIII",
+      "coeff": -0.0335513528
+    },
+    {
+      "label": "XZZZXZIIII",
+      "coeff": -0.0335513528
+    },
+    {
+      "label": "IIIZIZIIII",
+      "coeff": 0.0603589132
+    },
+    {
+      "label": "YZZYIZIIII",
+      "coeff": 0.0110192322
+    },
+    {
+      "label": "XZZXIZIIII",
+      "coeff": 0.0110192322
+    },
+    {
+      "label": "IIZIIZIIII",
+      "coeff": 0.0670321044
+    },
+    {
+      "label": "IZIIIZIIII",
+      "coeff": 0.0670321044
+    },
+    {
+      "label": "ZIIIIZIIII",
+      "coeff": 0.1134468027
+    },
+    {
+      "label": "IIIZZIIIII",
+      "coeff": 0.0526365153
+    },
+    {
+      "label": "YZZYZIIIII",
+      "coeff": 0.0041915663
+    },
+    {
+      "label": "XZZXZIIIII",
+      "coeff": 0.0041915663
+    },
+    {
+      "label": "IIZIZIIIII",
+      "coeff": 0.0616872047
+    },
+    {
+      "label": "IZIIZIIIII",
+      "coeff": 0.0616872047
+    },
+    {
+      "label": "ZIIIZIIIII",
+      "coeff": 0.0824794937
+    },
+    {
+      "label": "YZZIYIIIII",
+      "coeff": 0.0054561563
+    },
+    {
+      "label": "XZZIXIIIII",
+      "coeff": 0.0054561563
+    },
+    {
+      "label": "IIZYYIIIII",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IIZXXIIIII",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IZIYYIIIII",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "IZIXXIIIII",
+      "coeff": 0.0033773476
+    },
+    {
+      "label": "ZIIYYIIIII",
+      "coeff": 0.0028624554
+    },
+    {
+      "label": "ZIIXXIIIII",
+      "coeff": 0.0028624554
+    },
+    {
+      "label": "YZIZYIIIII",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "XZIZXIIIII",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "YIZZYIIIII",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "XIZZXIIIII",
+      "coeff": -0.0008205598
+    },
+    {
+      "label": "IIZZIIIIII",
+      "coeff": 0.0601786623
+    },
+    {
+      "label": "IZIZIIIIII",
+      "coeff": 0.0601786623
+    },
+    {
+      "label": "ZIIZIIIIII",
+      "coeff": 0.0537468658
+    },
+    {
+      "label": "YZIYIIIIII",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "XZIXIIIIII",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "YIZYIIIIII",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "XIZXIIIIII",
+      "coeff": -0.003990268
+    },
+    {
+      "label": "IZZIIIIIII",
+      "coeff": 0.0655845232
+    },
+    {
+      "label": "ZIZIIIIIII",
+      "coeff": 0.0621015404
+    },
+    {
+      "label": "ZZIIIIIIII",
+      "coeff": 0.0621015404
+    }
+  ]
+}

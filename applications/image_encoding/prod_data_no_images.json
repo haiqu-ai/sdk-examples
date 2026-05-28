@@ -1,0 +1,504 @@
+{
+    "device": "ibm_boston",
+    "data": "2026-03-04T13:25:03.170881",
+    "experiments": [
+        {
+            "resolution": [
+                16,
+                16
+            ],
+            "tile": [
+                2,
+                2
+            ],
+            "circuits": {
+                "qiskit_sp": {
+                    "num_qubits": 8,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 1400,
+                        "depth_2q": 337,
+                        "gates_1q": 1650,
+                        "gates_2q": 392,
+                        "other_ops": 9,
+                        "gates_total": 2043,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 10.800440000000007,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 17.29,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 1.0,
+                    "id": "circ-8d34c29d-dfa2-495c-b690-16151bb2a8f4"
+                },
+                "block_vector_loading": {
+                    "num_qubits": 24,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 50,
+                        "depth_2q": 9,
+                        "gates_1q": 656,
+                        "gates_2q": 72,
+                        "other_ops": 25,
+                        "gates_total": 729,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.60596,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.37,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9948881640843605,
+                    "id": "circ-5f43c2f4-32e3-49ed-8dbd-c8e1b5d4934f"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "qiskit_sp": "jb-967679f1-3cde-435a-ab7a-361c4cf37a36",
+                    "block_vector_loading": "jb-759177b5-a710-4d58-b991-4ed3e2e30255"
+                },
+                "classical": {
+                    "qiskit_sp": "jb-499e1670-40e2-484e-a878-e28a268d2073",
+                    "block_vector_loading": "jb-e406868f-1f59-4733-98c2-be8aa5a15450"
+                }
+            }
+        },
+        {
+            "resolution": [
+                32,
+                32
+            ],
+            "tile": [
+                4,
+                4
+            ],
+            "circuits": {
+                "qiskit_sp": {
+                    "num_qubits": 10,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 5587,
+                        "depth_2q": 1438,
+                        "gates_1q": 6967,
+                        "gates_2q": 1814,
+                        "other_ops": 11,
+                        "gates_total": 8782,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 14.610079999999723,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 23.38,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 1.0,
+                    "id": "circ-46f547db-0b18-477c-be7f-6ca5d065f008"
+                },
+                "block_vector_loading": {
+                    "num_qubits": 96,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 51,
+                        "depth_2q": 9,
+                        "gates_1q": 2688,
+                        "gates_2q": 288,
+                        "other_ops": 97,
+                        "gates_total": 2977,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.60596,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.37,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9966600497259581,
+                    "id": "circ-31897551-cbd0-4119-9df1-6b271d41977f"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "qiskit_sp": "jb-b47f19da-844b-40ac-8ae8-0bbd7aea5313",
+                    "block_vector_loading": "jb-bbbf5b3f-6483-4b81-9a8c-dbd5bc3540f9"
+                },
+                "classical": {
+                    "qiskit_sp": "jb-2cd2bb91-80c1-4207-98bf-83961d0e0ec9",
+                    "block_vector_loading": "jb-7738e74d-4cca-4d6b-80e6-6b2edf2b1f8a"
+                }
+            }
+        },
+        {
+            "resolution": [
+                64,
+                64
+            ],
+            "tile": [
+                4,
+                4
+            ],
+            "circuits": {
+                "qiskit_sp": {
+                    "num_qubits": 12,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 21959,
+                        "depth_2q": 5354,
+                        "gates_1q": 27086,
+                        "gates_2q": 6818,
+                        "other_ops": 13,
+                        "gates_total": 33905,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 29.312239999996518,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 46.9,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 1.0,
+                    "id": "circ-646a7222-799e-444c-904a-473de67f6872"
+                },
+                "block_vector_loading": {
+                    "num_qubits": 128,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 23,
+                        "depth_2q": 11,
+                        "gates_1q": 944,
+                        "gates_2q": 416,
+                        "other_ops": 129,
+                        "gates_total": 1360,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.67148,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.48,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9905527714899884,
+                    "id": "circ-ab49089f-2e6d-4c97-b462-9a56ae50b64c"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "qiskit_sp": "jb-6418bbb0-68c3-40e4-aaa9-75bb78b22629",
+                    "block_vector_loading": "jb-839f6b55-711c-4700-b8bf-92dd94ed431a"
+                },
+                "classical": {
+                    "qiskit_sp": "jb-36ce67aa-7288-4a32-bf47-a781d6a74103",
+                    "block_vector_loading": "jb-8067e983-6733-4883-b147-3ba71b131fc9"
+                }
+            }
+        },
+        {
+            "resolution": [
+                128,
+                128
+            ],
+            "tile": [
+                2,
+                4
+            ],
+            "circuits": {
+                "qiskit_sp": {
+                    "num_qubits": 14,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 90013,
+                        "depth_2q": 21683,
+                        "gates_1q": 117318,
+                        "gates_2q": 30079,
+                        "other_ops": 15,
+                        "gates_total": 147398,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 88.43168000006838,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 141.5,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 1.0,
+                    "id": "circ-2d3c3c69-57fc-481f-bc5b-0ddd7a8fabda"
+                },
+                "block_vector_loading": {
+                    "num_qubits": 88,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 80,
+                        "depth_2q": 15,
+                        "gates_1q": 2633,
+                        "gates_2q": 304,
+                        "other_ops": 89,
+                        "gates_total": 2938,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.62876,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.41,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9842461039676902,
+                    "id": "circ-cee1e3aa-ccb7-4571-9836-abc527f6ea09"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "qiskit_sp": "jb-eeebec70-5ac7-499d-98ae-eec5fd9fbe10",
+                    "block_vector_loading": "jb-4f76360e-c6d3-4b12-8b34-c19e5fc7b101"
+                },
+                "classical": {
+                    "qiskit_sp": "jb-8a4786ad-b97b-4b0c-8c55-ce916177cacb",
+                    "block_vector_loading": "jb-38894ef7-47b8-4f1a-99a7-155dc215fbea"
+                }
+            }
+        },
+        {
+            "resolution": [
+                192,
+                192
+            ],
+            "tile": [
+                3,
+                3
+            ],
+            "circuits": {
+                "block_vector_loading": {
+                    "num_qubits": 108,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 80,
+                        "depth_2q": 15,
+                        "gates_1q": 3323,
+                        "gates_2q": 378,
+                        "other_ops": 109,
+                        "gates_total": 3702,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.629719999999999,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.41,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9775406639313456,
+                    "id": "circ-2bca9771-8dd7-4779-b0b5-ce7ed3ce4895"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "block_vector_loading": "jb-b3a68f44-0635-4269-addc-0f25c236b641"
+                },
+                "classical": {
+                    "block_vector_loading": "jb-99a9a0f3-ec0f-4c59-9927-fce817973991"
+                }
+            }
+        },
+        {
+            "resolution": [
+                256,
+                256
+            ],
+            "tile": [
+                2,
+                4
+            ],
+            "circuits": {
+                "block_vector_loading": {
+                    "num_qubits": 104,
+                    "analytics": {
+                        "qubits": 156,
+                        "depth": 90,
+                        "depth_2q": 17,
+                        "gates_1q": 3151,
+                        "gates_2q": 368,
+                        "other_ops": 105,
+                        "gates_total": 3520,
+                        "gate_size_distribution": null,
+                        "gate_diversity": null,
+                        "gate_diversity_basis_gates": null,
+                        "gate_count_distribution": null,
+                        "program_communication": "N/A",
+                        "critical_depth": "N/A",
+                        "entanglement_ratio": "N/A",
+                        "parallelism": "N/A",
+                        "liveness_per_qubit": "N/A",
+                        "liveness": "N/A",
+                        "correlation_matrix": null,
+                        "kl_divergence": "N/A",
+                        "circuit_normalized": null
+                    },
+                    "dry_run_cost": {
+                        "native": {
+                            "amount": 9.63764,
+                            "unit": "s"
+                        },
+                        "converted": {
+                            "amount": 15.43,
+                            "unit": "USD"
+                        }
+                    },
+                    "fidelity": 0.9808917924187829,
+                    "id": "circ-5bd87c7b-a5a7-45a6-963d-1ec2d66b8696"
+                }
+            },
+            "results": {
+                "qpu": {
+                    "block_vector_loading": "jb-1b11f70d-b510-48d4-bca5-7ea83aad711c"
+                },
+                "classical": {
+                    "block_vector_loading": "jb-cf341a7d-a7dd-4c17-a8eb-e08e1f154493"
+                }
+            }
+        }
+    ]
+}

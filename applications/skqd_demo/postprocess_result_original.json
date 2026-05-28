@@ -1,0 +1,16 @@
+{
+  "energy": -28.7027105099302,
+  "subspace_dimension": 81225,
+  "iteration_history": [
+    {"energy": -28.617247110553695, "subspace_dimension": 14641, "runtime": 60.0},
+    {"energy": -28.655238120677037, "subspace_dimension": 38416, "runtime": 1500.0},
+    {"energy": -28.687485265587778, "subspace_dimension": 43681, "runtime": 2520.0},
+    {"energy": -28.690916528193345, "subspace_dimension": 46656, "runtime": 2760.0},
+    {"energy": -28.697827033460747, "subspace_dimension": 53361, "runtime": 3420.0},
+    {"energy": -28.69888668486218, "subspace_dimension": 62001, "runtime": 3600.0},
+    {"energy": -28.700158454254904, "subspace_dimension": 67600, "runtime": 3660.0},
+    {"energy": -28.701877051292648, "subspace_dimension": 70225, "runtime": 3660.0},
+    {"energy": -28.70227992979024, "subspace_dimension": 73984, "runtime": 3900.0},
+    {"energy": -28.7027105099302, "subspace_dimension": 81225, "runtime": 4020.0}
+  ]
+}
