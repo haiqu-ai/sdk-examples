@@ -55,9 +55,9 @@ Shows how to efficiently prepare a probability distribution in a quantum state u
 
 ---
 
-### [`haiqu.isometry_encoding()`](isometryEncoding/haiqu_isometryEncoding.ipynb)
+### [`haiqu.entangled_manifold_embedding()`](EME/haiqu_EME.ipynb)
 
-Shows how to encode a vector of real classical features into a quantum state. Standard techniques would require as many qubits as features: for 1000 features, that's 1000 qubits, well beyond current hardware. Haiqu's isometry encoding compresses the same vector into 100 qubits or fewer, with qubit count controlled by a `density` parameter.
+Shows how to encode a vector of real classical features into a quantum state using Entangled Manifold Embedding (EME). Standard techniques would require as many qubits as features: for 1000 features, that's 1000 qubits, well beyond current hardware. Haiqu's EME compresses the same vector into 100 qubits or fewer, with qubit count controlled by a `density` parameter.
 
 ## Circuit Compression
 
